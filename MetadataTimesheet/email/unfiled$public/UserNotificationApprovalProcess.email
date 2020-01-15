@@ -1,0 +1,5 @@
+<messaging:emailTemplate subject="Timesheet Status" recipientType="User" relatedToType="Timesheet__c">
+<messaging:plainTextEmailBody >
+Your timesheet has been {!relatedTo.Timesheet_Status__c}
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>
